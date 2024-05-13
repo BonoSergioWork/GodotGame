@@ -43,6 +43,7 @@ animations = [{
 size = Vector2(8, 13)
 
 [node name="Character" type="CharacterBody2D"]
+z_index = 5
 script = ExtResource("1_ak2qi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
